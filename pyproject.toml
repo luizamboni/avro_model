@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "avro_model"
+version = "0.1.0"
+description = "A project to handle Avro serialization with Pydantic models."
+authors = ["Luiz Zamboni <luizamboni@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pydantic = "^1.8"
+fastavro = "^1.4"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+addopts = "-vv -s"
+testpaths = [
+    "tests",
+]

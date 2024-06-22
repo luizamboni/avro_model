@@ -19,7 +19,7 @@ This module is designed to facilitate the use of Avro data in Python application
 ```shell
 $ poetry add git+https://github.com/luizamboni/avro_model.git
 
-# or alternatively if you use pip yet
+# or alternatively, if you are using pip yet
 $ pip install git+https://github.com/luizamboni/avro_model.git
 ```
 

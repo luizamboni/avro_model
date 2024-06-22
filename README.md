@@ -17,10 +17,10 @@ This module is designed to facilitate the use of Avro data in Python application
 ## Installment
 `avro_model` is in its early days. So to install
 ```shell
-$ poetry add git+https://github.com/luizamboni/avro_model.git
+$ poetry add git+https://github.com/luizamboni/avro_model.git#v0.1.0-alpha
 
-# or alternatively, if you are using pip yet
-$ pip install git+https://github.com/luizamboni/avro_model.git
+# Or alternatively, if you are using pip yet
+$ pip install git+https://github.com/luizamboni/avro_model.git#v0.1.0-alpha
 ```
 
 ## With `avro_model` is possible:
